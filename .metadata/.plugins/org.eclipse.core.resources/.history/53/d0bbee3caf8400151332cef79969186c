@@ -1,7 +1,0 @@
-package radojko.basic;
-
-public class Hello {
-	public String hello(String s){
-		return "Hello " + s;
-	}
-}

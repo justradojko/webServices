@@ -1,3 +1,0 @@
-INDEX VERSION 1.126
-/Users/Just/Dropbox/Java programing/3. Web services/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3954225670.index
-/01.WebService_basic/src

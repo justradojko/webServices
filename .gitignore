@@ -1,3 +1,5 @@
 *.class
 GlassFish_dir/
 RemoteSystemsTempFiles/
+.metadata/
+
