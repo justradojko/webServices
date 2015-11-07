@@ -1,0 +1,14 @@
+package com.radojko.fibonacci;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class fibonacciTestCase {
+
+	@Test
+	public void test() {
+		Fibonacci fib = new Fibonacci();
+		Assert.assertEquals(1, fib.finbonacci(0));
+	}
+
+}

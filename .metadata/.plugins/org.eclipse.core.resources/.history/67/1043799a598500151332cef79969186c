@@ -1,0 +1,17 @@
+package com.radojko.fibonacci;
+
+import javax.jws.WebService;
+
+@WebService
+public class Fibonacci {
+	public int finbonacci(int n){
+		int[] fibArray = new int[] {};
+		
+		for (int i = 0; i < n; i++) {
+			if (i > 1) {
+				fibArray[i] = fibArray[i - 1] + fibArray[i - 2]; 
+			}
+		}
+		return fibArray[n - 1];
+	}
+}

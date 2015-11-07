@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="fibonacciTestCase" project="01.WebService_basic" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.radojko.fibonacci.fibonacciTestCase" time="0.0">
+    <testcase name="test1" classname="com.radojko.fibonacci.fibonacciTestCase" time="0.0"/>
+    <testcase name="test2" classname="com.radojko.fibonacci.fibonacciTestCase" time="0.0"/>
+    <testcase name="test3" classname="com.radojko.fibonacci.fibonacciTestCase" time="0.0"/>
+    <testcase name="test6" classname="com.radojko.fibonacci.fibonacciTestCase" time="0.0"/>
+  </testsuite>
+</testrun>

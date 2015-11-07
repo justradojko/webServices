@@ -1,0 +1,17 @@
+package com.radojko.fibonacci;
+
+import static org.junit.Assert.*;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class fibonacciTestCase {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+		Fibonacci fib = new Fibonacci();
+		Assert.assertArrayEquals(1, fib.finbonacci(0));
+	}
+
+}

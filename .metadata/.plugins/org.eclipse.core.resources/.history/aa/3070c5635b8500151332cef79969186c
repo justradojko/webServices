@@ -1,0 +1,20 @@
+package com.radojko.fibonacci;
+
+import javax.jws.WebService;
+
+@WebService
+public class Fibonacci {
+	public int finbonacci(int n){
+		int[] fibArray = new int[] {1, 1};
+		int tempSum = 0;
+		
+		if (n > 2) {
+			for (int i = 3; i <= n; i++) {
+				tempSum = fibArray[0] + fibArray[1];
+				fibArray[0] = fibArray[1];
+				fibArray[1] = tempSum;
+			}
+		}
+		return fibArray[1];
+	}
+}
